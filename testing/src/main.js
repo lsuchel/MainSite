@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
@@ -47,8 +47,8 @@ function addStar(){
 
 Array(115).fill().forEach(addStar);
 
-const bgLoader = new THREE.ImageLoader();
-
+const bgLoader = new THREE.TextureLoader().load('https://cdn.pixabay.com/photo/2016/11/29/02/20/cosmos-1866820_960_720.jpg');
+scene.background = bgLoader;
 
 
 
