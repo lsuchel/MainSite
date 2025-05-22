@@ -47,6 +47,11 @@ function addStar(){
 
 Array(115).fill().forEach(addStar);
 
+const bgLoader = new THREE.ImageLoader();
+
+
+
+
 function animate(){
   requestAnimationFrame(animate);
 
