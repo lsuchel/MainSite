@@ -47,7 +47,7 @@ function addStar(){
 
 Array(115).fill().forEach(addStar);
 
-const bgLoader = new THREE.TextureLoader().load('https://cdn.pixabay.com/photo/2016/11/29/02/20/cosmos-1866820_960_720.jpg');
+const bgLoader = new THREE.TextureLoader().load('./Images/space.jpg');
 scene.background = bgLoader;
 
 
